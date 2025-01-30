@@ -76,9 +76,10 @@ This document outlines the step-by-step process to export the database from the 
 
 ### Steps:
 
-1. **Access the Mautic Database Container:**
+1. **Copy the Database and Access the Mautic Database Container:**
 
    ```bash
+   docker cp /path/to/local/mautic_backup.sql <MAUTIC_DB_CONTAINER>:/path/in/container
    docker exec -it <MAUTIC_DB_CONTAINER> bash
    ```
 
