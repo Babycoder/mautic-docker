@@ -108,7 +108,7 @@ docker cp /path/to/local/images <MAUTIC_DB_CONTAINER>:/var/www/html/docroot/medi
 ## 5. Running migration
 
 
-1.  **Run the migration command and check the logs**
+1.  **Run the migration command and !! check the logs**
  ```
  docker compose exec <MAUTIC_WEB_CONTAINER> php ../bin/console doctrine:migrations:migrate --no-interaction --dry-run
  ```
