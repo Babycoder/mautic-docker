@@ -15,11 +15,13 @@ This document outlines the step-by-step process to export the database from the 
 
 ## 1. Export Database from Live Instance
 
-1. **Dump the Database and Transfer it to Local Machine:**
+1. **Dump the Database and transfer it to Local Machine:**
    - Run the following command to export the database:
      ```bash
      mysqldump -u <DB_USER> -p'<DB_PASSWORD>' --host=<DB_HOST> <DB_NAME> > mautic_backup.sql
      ```
+2. **Export the necessary media files**
+
 
 ---
 
