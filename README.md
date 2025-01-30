@@ -1,5 +1,7 @@
 # Mautic Migration and Dockerization Documentation
+
 <img src="https://opensourcegeeks.net/content/images/2022/11/How-To-Install-Mautic-With-Docker---Opensource-Geeks.png" width="500" height="250" />
+
 ## Overview
 
 This document outlines the step-by-step process to export the database from the live Mautic instance, set up a Dockerized version of Mautic, and migrate the database for testing and future deployment.
