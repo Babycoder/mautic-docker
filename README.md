@@ -91,6 +91,13 @@ This document outlines the step-by-step process to export the database from the 
    ```bash
    mysql -u <DB_USER> -p <DB_NAME> < /path/to/mautic_backup.sql
    ```
+4. **Import media files:**
+```bash
+docker cp /path/to/local/files <MAUTIC_DB_CONTAINER>:/var/www/html/docroot/media/files
+docker cp /path/to/local/images <MAUTIC_DB_CONTAINER>:/var/www/html/docroot/media/images
+
+```
+   
 
 ---
 
